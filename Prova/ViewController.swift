@@ -15,8 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let rnd = arc4random_uniform(10)
-        println(rnd)
-        
+        println("num. casuale = \(rnd)")
         
     }
 
